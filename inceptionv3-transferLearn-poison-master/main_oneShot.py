@@ -100,6 +100,8 @@ for i in range(len(X_test)):
             if not usedClosest:
                 ind = closest_to_target_from_class(classBase=1 - Y_test[i], targetFeatRep=X_test[i],
                                                    allTestFeatReps=X_test, allTestClass=Y_test)
+                # 数据是 Y数据集中挑选，
+
                 baseImg = X_inp_test[ind]
                 usedClosest = True
             else:

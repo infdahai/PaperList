@@ -148,7 +148,7 @@ def id_duplicates_of_training_from_test(X_test,X_training, threshold = 3.5):
         # print distsToTargs
         report_inds = np.argwhere(distsToTargs <= threshold)
         if len(report_inds) > 0:
-            print report_inds
+            print(report_inds)
             print(distsToTargs[0][report_inds])
         if len(np.argwhere(distsToTargs == 0.)) > 0:
             list_ind.append(i)
@@ -195,12 +195,15 @@ def load_bottleNeckTensor_data(directory=None, saveEm=False, random_state=123, t
     allDogs = np.load(allDogs)
     
     #do train and test split number of training dogs and number of training fishes = 900 from each class
+    # dog : 0 , fish : 1
     x_d_tr, x_d_tst, y_d_tr, y_d_tst, inp_d_tr, inp_d_tst = train_test_split(dog_x_feats, np.zeros(len(dog_x_feats)), allDogs ,train_size=train_size, random_state=random_state)
     x_f_tr, x_f_tst, y_f_tr, y_f_tst, inp_f_tr, inp_f_tst = train_test_split(fish_x_feats, np.ones(len(fish_x_feats)),allFishes, train_size=train_size, random_state=random_state)
     
     assert len(x_d_tr) + len(x_d_tst) == len(dog_x_feats), "There is some issue with the spliting"
     assert len(inp_d_tr) + len(inp_d_tst) == len(dog_x_feats), "There's issues with splitting of the input images - maybe there is an issue with the raw images"
-    
+    # what does that mean ?  INP_d_tr, inp_d_tst
+
+
     #concatenate all of the X's
     X_tr_feats = np.squeeze(np.concatenate((x_d_tr, x_f_tr), axis=0))
     X_tst_feats = np.squeeze(np.concatenate((x_d_tst, x_f_tst), axis=0))
@@ -212,7 +215,7 @@ def load_bottleNeckTensor_data(directory=None, saveEm=False, random_state=123, t
 
     #remove the duplicates of the test data which are already present in the training data
     ids_for_test_removal = id_duplicates_of_training_from_test(X_test=X_tst_feats,X_training=X_tr_feats, threshold = 3.5)
-    print ids_for_test_removal
+    print(ids_for_test_removal)
     #sort the ids in descending order
     ids_for_test_removal.sort(reverse=True)
     for k in ids_for_test_removal:
