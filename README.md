@@ -3,6 +3,8 @@ temporary public. I will lock it randomly.
 
 图形学选题 :  https://mmcheng.net/paperreading/
 
+nas : https://github.com/markdtw/awesome-architecture-search
+
 # code for framework
 
 tinyflow/tqchen : https://github.com/tqchen/tinyflow
