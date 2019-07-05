@@ -3,7 +3,8 @@ temporary public. I will lock it randomly.
 
 图形学选题 :  https://mmcheng.net/paperreading/
 
-nas : https://github.com/markdtw/awesome-architecture-search
+nas1 : https://github.com/markdtw/awesome-architecture-search
+nas2 : https://github.com/D-X-Y/Awesome-NAS
 
 # code for framework
 
