@@ -12,3 +12,5 @@ tinyflow/tqchen : https://github.com/tqchen/tinyflow
 mshadow/dmlc : https://github.com/dmlc/mshadow
 
 mxnet/apache : https://github.com/apache/incubator-mxnet
+
+pytorch/pytorch : https://github.com/pytorch/pytorch
