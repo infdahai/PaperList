@@ -23,3 +23,12 @@ pytorch/pytorch : https://github.com/pytorch/pytorch
 gcn(semi-supervised classification with graph convolutional networks) : https://github.com/tkipf/gcn 
 
 graph attention networks : https://github.com/PetarV-/GAT
+
+
+# reading paper
+
+## meta-learning
+
+1.  UNSUPERVISED LEARNING VIA META-LEARNING : https://arxiv.org/pdf/1810.02334.pdf
+
+2.  Difficulty-aware Meta-Learning for Rare Disease Diagnosis : https://arxiv.org/pdf/1907.00354.pdf
