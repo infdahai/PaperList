@@ -30,5 +30,5 @@ graph attention networks : https://github.com/PetarV-/GAT
 ## meta-learning
 
 1.  UNSUPERVISED LEARNING VIA META-LEARNING : https://arxiv.org/pdf/1810.02334.pdf (unfinshed)
-
 2.  Difficulty-aware Meta-Learning for Rare Disease Diagnosis : https://arxiv.org/pdf/1907.00354.pdf
+3.  Efficient Neural Architecture Search via Parameter Sharing : https://arxiv.org/pdf/1802.03268.pdf(unfinished)
