@@ -40,3 +40,8 @@ graph attention networks : https://github.com/PetarV-/GAT
 ## NAS : neural architecture search 
 
 1.  Efficient Neural Architecture Search via Parameter Sharing : https://arxiv.org/pdf/1802.03268.pdf(unfinished)
+
+
+## intepretable
+
+1. LEMNA : http://people.cs.vt.edu/gangwang/ccs18.pdf

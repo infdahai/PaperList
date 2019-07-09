@@ -109,3 +109,5 @@ venv.bak/
 # Project
 #cifar-10-batches-py/
 Data/
+
+**/.vscode
