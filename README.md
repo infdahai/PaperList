@@ -20,9 +20,15 @@ pytorch/pytorch : https://github.com/pytorch/pytorch
 
 # code for paper
 
-gcn(semi-supervised classification with graph convolutional networks) : https://github.com/tkipf/gcn 
+1.  gcn(semi-supervised classification with graph convolutional networks) : https://github.com/tkipf/gcn 
 
-graph attention networks : https://github.com/PetarV-/GAT
+2.  graph attention networks : https://github.com/PetarV-/GAT
+
+3. ENAS 
+   1. tfhttps : //github.com/melodyguan/enas
+   2. pytorch : https://github.com/carpedm20/ENAS-pytorch
+
+
 
 
 # reading paper
@@ -39,8 +45,8 @@ graph attention networks : https://github.com/PetarV-/GAT
 
 ## NAS : neural architecture search 
 
-1.  Efficient Neural Architecture Search via Parameter Sharing : https://arxiv.org/pdf/1802.03268.pdf(unfinished)
-
+1.  ENAS : Efficient Neural Architecture Search via Parameter Sharing : https://arxiv.org/pdf/1802.03268.pdf(unfinished)
+2. SNAS :  Stochastic Neural Architecture Search : https://arxiv.org/abs/1812.09926
 
 ## intepretable
 
