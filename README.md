@@ -9,6 +9,9 @@ temporary public. I will lock it randomly.
    1. graph-embedding ； <https://github.com/benedekrozemberczki/awesome-graph-embedding>
    2. gnn : <https://github.com/nnzhan/Awesome-Graph-Neural-Networks>
    3. gcn : <https://github.com/Jiakui/awesome-gcn>
+5. reading-book
+   1. foundations of ml 
+      1. data limit : (2019.9-2020.1)
 
 ## code for framework
 
@@ -22,6 +25,8 @@ temporary public. I will lock it randomly.
 
    1. code : <https://github.com/pytorch/pytorch>
    2. tutorial : <https://pytorch.org>
+
+5. model list : <https://modelzoo.co/>
 
 ## code for paper
 
@@ -66,6 +71,10 @@ temporary public. I will lock it randomly.
 
 1. [LEMNA](./LEMNA_ExplainingDeepLearningbasedSecurityApplications.pdf) : <http://people.cs.vt.edu/gangwang/ccs18.pdf>
 
+2. [AttentNotExplana](./AttentionisnotExplanation) : <https://arxiv.org/abs/1902.10186>
+
+3. [Interpretable Multi-task Learning for Product Quality Prediction with Attention Mechanism](InterpretableMultiTaskLearning) : <https://ieeexplore.ieee.org/document/8731458>
+
 ### adversarial examples
 
 1. [Poison Frogs! Targeted Clean-Label Poisoning Attacks on Neural Networks](./6_14Poison_Frogs.pdf) : <https://arxiv.org/pdf/1804.00792.pdf>
@@ -80,3 +89,11 @@ temporary public. I will lock it randomly.
 ### security
 
 1. [AsmToVec](./Asm2Vec.pdf) : <https://www.computer.org/csdl/proceedings-article/sp/2019/666000a038/19skfc3ZfKo>
+
+### graph(gnn, gru, gcn)
+
+1. how to construct graph : <https://www.sciencedirect.com/science/article/pii/S0925231218306696>
+
+### ai_sys
+
+1. [2019_EuroSys_Parallax Sparsity-aware Data Parallel Training of Deep Neural Networks](./ai_sys/EuroSysSparsity.pdf)
